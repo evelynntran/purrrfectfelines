@@ -1,0 +1,314 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #545984;
+  padding: 10px 0;
+  z-index: 2;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: white;
+  font-weight: bold;
+  font-family: "gill sans", serif;
+  font-size: 15px;
+  display: inline-block;
+}
+
+h1, h2, h3, h5 {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'gill sans', serif;
+}
+
+h4{
+  font-size: 70px;
+  margin-left: 300px;
+}
+
+.home body {
+  text-align: center;
+  margin: 30px;
+  margin-top: 100px;
+}
+
+.container {
+  position: relative;
+  font-family: 'verdana', sans-serif;
+}
+
+.home h {
+  font-size: 55px;
+  text-align: center;
+  padding-right: 300px;
+  font-family: 'gill sans', serif;
+}
+
+.home img{
+  border-radius: 8px;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.grid-item {
+  font-family: "verdana", sans-serif;
+  background-color: #aaa4d6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto; 
+  padding: 10px;
+  border-radius: 8px;
+  overflow-wrap: break-word; 
+  font-size: clamp(12px, 2vw, 18px); 
+  line-height: 1.5; 
+}
+
+
+.images {
+  object-fit: cover;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.feeding p{
+  font-family: 'verdana', sans-serif;
+  font-size: 25px;
+  
+}
+
+.feeding h{
+  font-size: 55px;
+}
+
+
+.tips h {
+  text-align: center; 
+  margin-left: 70px;
+  font-size: 55px;
+  font-family: "garamond", serif;
+  margin: 0 auto; 
+  border-left: none;
+}
+
+.feeding img {
+  border-radius: 8px;
+  display: block; 
+  margin: 0 auto; 
+}
+
+
+
+.feeding body {
+  margin: 50px;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+.feedtext {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.feedtwo {
+   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 0px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 10px;font-family: 'verdana', sans-serif;
+  font-size: 25px;
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 300px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  right: 0;
+  background-color: #aaa4d6; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 45px;
+}
+
+.sidenav img {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 8px; 
+  margin: 0 auto;
+  display: block; 
+}
+
+
+  
+.enrichment h {
+  font-size: 55px;
+  text-align: center;
+  font-family: 'gill sans', serif;
+}
+.sidenav p{
+  font-size: 13px;
+  font-family: 'verdana', sans-serif;
+}
+.sidenav h{
+  font-size: 20px;
+  font-family: 'gill sans', serif;
+}
+
+
+
+.content-container {
+  margin: 20px 320px 20px 20px;
+  text-align: center; 
+  margin-left: 20px; 
+}
+
+.enrichment img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.enrichment p {
+  text-align: center;
+  font-family: 'verdana', sans-serif;
+  font-size: 20px;
+}
+
+behavior {
+  margin-left: 300px; /* Move the content to the right to start after the sidebar */
+  margin-top: 70px; /* Adjust for navbar height */
+  text-align: center; /* Centers all content (text and images) inside this div */
+  width: calc(100% - 300px); /* Set the width to fill the remaining space after the sidebar */
+  max-width: 1200px; /* Optional: limit the max width */
+  margin-right: auto; /* Ensures the div is centered in the available space */
+}
+
+.sidenavtwo {
+  height: 100%; 
+  width: 300px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0; 
+  color: white; 
+  background-color: #aaa4d6; 
+  overflow-y: auto; 
+  overflow-x: hidden; 
+  padding-top: 70px; 
+}
+
+
+.behavior p{
+  margin: 20px;
+  font-size:20px;
+  font-family: "verdana", sans-serif;
+  
+}
+.sidenavtwo p {
+  padding-left: 30px;
+  font-size: 15px;
+  font-family: "verdana", sans-serif;
+  
+}
+
+h4{
+  font-size: 70px;
+  margin-left: 300px;
+}
+.behavior h {
+  font-size: 55px;
+  text-align: center;
+  
+  font-family: 'gill sans', serif;
+}
+.sidenavtwo h {
+  padding-left: 15px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'gill sans', serif;
+}
+.behavior body{
+  margin-left: 320px;
+  margin-top: 70px;
+}
+
+.behavior img {
+  max-width: 100%;  
+  height: auto;
+  border-radius: 8px;
+} 
+
+
+.donations p{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'verdana', sans-serif;
+}
+.donations {
+  max-width: 800px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+  text-align: center; /* Align text and elements to the center */
+  padding: 20px; /* Add padding for extra spacing */
+}
+
+.donations img {
+  display: block; /* Makes the image behave like a block element */
+  margin: 20px auto; /* Centers the image horizontally and adds vertical spacing */
+  max-width: 100%; /* Ensures the image doesn't overflow the container */
+  height: auto; /* Maintains the aspect ratio of the image */
+}
+
+
+.donations a {
+  display: block; /* Stack links vertically */
+  margin-bottom: 20px; /* Add spacing between links */
+  font-size: 16px;
+  font-family: "verdana", sans-serif;
+}
